@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    background-image: url('https://codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+div {
+    color: white;
+}
+
+input {
+    border-radius: 1rem;
+    padding:5px;
+    position:relative; 
+    left:80px; 
+    top:50px;
+    font-size: 20px;
+    height: 50px;
+    width: 360px;
+}
+
+br {
+    margin-bottom: 500px;
+}
+
+h1 {
+    text-align: center;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+}
