@@ -1,8 +1,8 @@
 import Navbar from './components/Navbar'
 import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home'
-import Teams from './pages/Add'
-import Guides from './pages/Tasks'
+import Add from './pages/Add'
+import Tasks from './pages/Tasks'
 import Socials from './pages/Socials'
 
 function App() {
@@ -10,8 +10,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/Add" element={<Teams />} />
-        <Route path="/Tasks" element={<Guides />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Add" element={<Add />} />
+        <Route path="/Tasks" element={<Tasks />} />
         <Route path="/Socials" element={<Socials />} />
       </Routes>
     </div>

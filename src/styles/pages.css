@@ -20,6 +20,24 @@ input {
     width: 360px;
 }
 
+button {
+    font-size: 20px;
+    margin: 25px;
+    padding: 15px;
+    font: 15px;
+    position: relative;
+    left: 80px;
+    top:50px;
+    align-items: center;
+}
+span {
+    font-size: 20px;
+    padding: 8px;
+    position: relative;
+    left: 80px;
+    top:50px;
+}
+
 br {
     margin-bottom: 500px;
 }
